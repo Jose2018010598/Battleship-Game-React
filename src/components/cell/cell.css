@@ -1,0 +1,50 @@
+.cell {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #1f4f6f;
+  border-radius: 6px;
+  background-color: #b9e6ff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: transform 0.12s ease, filter 0.12s ease, box-shadow 0.12s ease;
+}
+
+.cell:hover {
+  transform: scale(1.06);
+  filter: brightness(0.96);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.cell-ship {
+  background-color: #606c76;
+  box-shadow: inset 0 0 0 2px #2f3e46;
+}
+
+.cell-miss {
+  background-color: #e4f4ff;
+  color: #1f4f6f;
+}
+
+.cell-hit {
+  background-color: #ff8a65;
+}
+
+.cell-sunk {
+  background-color: #b71c1c;
+  color: white;
+}
+
+.cell-radar {
+  outline: 3px solid #f9c74f;
+  outline-offset: -3px;
+  box-shadow: 0 0 10px #f9c74f;
+}
+
+@media (max-width: 460px) {
+  .cell {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+}

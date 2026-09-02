@@ -1,0 +1,46 @@
+.dashboard {
+  max-width: 980px;
+  margin: 0 auto 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem 1rem;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: rgba(232, 246, 255, 0.95);
+  border: 1px solid rgba(33, 158, 188, 0.3);
+  box-shadow: 0 10px 22px rgba(2, 48, 71, 0.1);
+}
+
+.dashboard div {
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: white;
+  color: #023047;
+}
+
+.timer-warning {
+  color: #b71c1c !important;
+  font-weight: bold;
+}
+
+.radar-button {
+  padding: 0.55rem 0.95rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9c74f;
+  color: #263238;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.radar-button:hover:not(:disabled) {
+  filter: brightness(0.95);
+}
+
+.radar-button:disabled {
+  background-color: #cfd8dc;
+  color: #607d8b;
+  cursor: not-allowed;
+}

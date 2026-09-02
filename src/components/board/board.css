@@ -1,0 +1,34 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(33, 158, 188, 0.25);
+  box-shadow: 0 12px 28px rgba(2, 48, 71, 0.12);
+}
+
+.board-container h3 {
+  margin: 0;
+  color: #023047;
+  font-size: 1.2rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 34px);
+  grid-template-rows: repeat(10, 34px);
+  gap: 3px;
+  padding: 0.7rem;
+  border-radius: 12px;
+  background-color: #023047;
+}
+
+@media (max-width: 460px) {
+  .board {
+    grid-template-columns: repeat(10, 28px);
+    grid-template-rows: repeat(10, 28px);
+  }
+}

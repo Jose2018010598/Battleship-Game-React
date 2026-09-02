@@ -1,0 +1,24 @@
+.battle-game {
+  width: 100%;
+}
+
+.game-message {
+  max-width: 900px;
+  min-height: 32px;
+  margin: 0 auto 1rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #023047;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(2, 48, 71, 0.08);
+}
+
+.boards-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
