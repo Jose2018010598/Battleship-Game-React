@@ -34,11 +34,25 @@ The application was developed using functional React components and makes use of
 - Flexbox
 - Responsive media queries
 
+## Screenshots
+
+### Game Start
+![Game Start](screenshots/Init.png)
+
+### Ship Placement
+![Ship Placement](screenshots/Ship_Placement.png)
+
+### Gameplay
+![Gameplay](screenshots/GamePlay.png)
+
+### Intelligent Radar
+![Intelligent Radar](screenshots/Radar.png)
+
 ## Run locally
 
 Clone the repository:
 
-git clone https://github.com/Jose2018010598/Battleship-React.git
+git clone https://github.com/Jose2018010598/Battleship-Game-React.git
 
 Install dependencies:
 
